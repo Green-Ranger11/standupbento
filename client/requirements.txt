@@ -1,4 +1,6 @@
 transformers
 matplotlib
+altair
+pandas
 numpy
 torch
