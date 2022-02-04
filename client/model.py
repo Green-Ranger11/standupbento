@@ -44,15 +44,19 @@ class BertModel:
         normalized = f.normalize(CLSs, p=2, dim=1)
         return normalized
 
-    def visualize(self, responses, type='pca'):
-        if type == 'pca':
+    def reduce_dimensionality(self, responses, method):
+        if method == 'pca':
             XY = self.pca.fit_transform(
                 self.embed_responses(responses)
             )
-        elif type == 'tsne':
+        elif method == 'tsne':
             XY = self.tsne.fit_transform(
                 self.embed_responses(responses)
             )
+        return XY
+
+    def visualize(self, responses, method='pca'):
+        XY = self.reduce_dimensionality(responses, method)
         # basic coloring scheme
         color = []
         for response in responses:
@@ -68,7 +72,7 @@ class BertModel:
             hover_data={
                 'response': responses
             },
-            title=f'{type.upper()} visualization of responses',
+            title=f'{method.upper()} visualization of responses',
             labels={'0': 'PC 1', '1': 'PC 2', '2': 'PC 3'}
         )
         fig.show()

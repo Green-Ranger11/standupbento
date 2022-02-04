@@ -1,9 +1,8 @@
 transformers
-matplotlib
 streamlit
 requests
 sklearn
-altair
-pandas
+bentoml
+plotly
 numpy
 torch
