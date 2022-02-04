@@ -1,6 +1,6 @@
 import streamlit as st
 import plotly.express as px
-from standupman import query_responses
+from data import get_standup_responses
 import model
 
 
@@ -14,6 +14,8 @@ if __name__ == '__main__':
     )
 
     # get the responses from Standupman
-    responses = query_responses()
+    responses = get_standup_responses()
     # load bert from BentoML and plot the embeddings
-    bert.visualize(responses)
+    st.plotly_chart(
+        bert.visualize(responses)
+    )

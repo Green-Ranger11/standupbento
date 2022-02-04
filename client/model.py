@@ -75,4 +75,4 @@ class BertModel:
             title=f'{method.upper()} visualization of responses',
             labels={'0': 'PC 1', '1': 'PC 2', '2': 'PC 3'}
         )
-        fig.show()
+        return fig
