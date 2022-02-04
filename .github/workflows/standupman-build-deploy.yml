@@ -18,13 +18,11 @@ jobs:
           node-version: '16'
       - name: Install Dependencies
         run: npm install
-      - name: Install Dependencies
-        run: npm run build
       - name: Push to Linode
         run: |
           echo "$ssh_key" > ~/ssh_key
           chmod 600 ~/ssh_key
-          rsync -avrzP -v ./standupman/ --no-perms -O -e "ssh -i ~/ssh_key -o StrictHostKeyChecking=no" "$user"@"$target_ip":/var/standupman/api
+          rsync -avrzP -v ./ --no-perms -O -e "ssh -i ~/ssh_key -o StrictHostKeyChecking=no" "$user"@"$target_ip":/var/standupman/api
         env:
           ssh_key: ${{ secrets.CICD_SSH }}
           user: ${{ secrets.CICD_USER }}
