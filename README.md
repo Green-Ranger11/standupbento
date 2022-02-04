@@ -23,6 +23,16 @@ This project is built with `standupman`, `BentoML` and `streamlit`
 You can choose to run your own instance of standupman or use another to get data for anaylsis.
 
 ## ⚡ Installation
+
+1. Install MongoDB
+2. Establish Database Connection
+  - mongosh
+  - show dbs
+  - use scrum_app
+3. python3 client/data.py
+4. cd client
+5. python3 streamlit main.py
+
 #### Client application
 ##### Install dependencies
 
