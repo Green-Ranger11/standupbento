@@ -1,6 +1,6 @@
 # StandupBento
 
-https://user-images.githubusercontent.com/25377399/152483039-73661709-981d-44fc-9d5f-20eaaade76b8.mov
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/25377399/152597682-3e15ecae-8fa2-4ab0-bd5b-aed3b334a2ab.gif)
 
 # 💭 Introduction
 
@@ -11,8 +11,8 @@ This project aims to alleviate that difficulty through the use of BERT, a senten
 ## 🎯 Features 
 
 - Get analysis on standups
-- Something
-- Also something lol
+- Plot the standups to be easily grouped
+- Hover over clusters to read their messages
 
 ## 📖 Documentation Details
 
