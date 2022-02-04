@@ -2,6 +2,7 @@ transformers
 matplotlib
 streamlit
 requests
+sklearn
 altair
 pandas
 numpy
