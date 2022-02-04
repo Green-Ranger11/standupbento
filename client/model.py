@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import plotly.express as px
 import numpy as np
 import torch
 import torch.nn.functional as f
