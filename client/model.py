@@ -14,8 +14,8 @@ class BertModel:
         self.model, self.tokenizer = \
             self.load_model_from_bentoml()
         self.device = self.get_device()
-        self.tsne = TSNE(n_components=2)
-        self.pca = decomposition.PCA(n_components=2)
+        self.tsne = TSNE(n_components=3)
+        self.pca = decomposition.PCA(n_components=3)
 
     def load_model_from_bentoml(self):
         try:
