@@ -1,5 +1,7 @@
 # StandupBento
 
+https://user-images.githubusercontent.com/25377399/152483039-73661709-981d-44fc-9d5f-20eaaade76b8.mov
+
 # 💭 Introduction
 
 Searching through text for trends or identifying issues is extremely important; thus, labelling the text is a necessary but arduous task. It's made only harder when needing to relate differing responses across subjects.
