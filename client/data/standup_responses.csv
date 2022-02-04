@@ -1,0 +1,41 @@
+standupResponse,responseTime
+I will continue to work on the prototype that designs the user interface (UI),2022-01-01T16:00:00.000Z
+Continue to code the frontend interface (UI) of the dashboard,2022-01-02T16:00:00.000Z
+Add new features to the UI,2022-01-03T16:00:00.000Z
+Work to redesign parts of the UI/UX that users feedback,2022-01-04T16:00:00.000Z
+Have a discussion with the team how the UI/UX flow should be,2022-01-05T16:00:00.000Z
+Finalise making changes to the UI and open a PR to merge,2022-01-06T16:00:00.000Z
+Roll out the newly designed UI,2022-01-07T16:00:00.000Z
+Spin up a container to serve the cookiedough's frontend (UI).,2022-01-08T16:00:00.000Z
+Continue to code the homepage design (UI),2022-01-09T16:00:00.000Z
+Design the UI for blob website,2022-01-04T10:00:00.000Z
+Take down the frontend (UI) server and work on it as per the scheduled maintenance,2022-01-11T16:00:00.000Z
+I will work on the UI for the website that the customer pot seller XXX request,2022-01-12T16:00:00.000Z
+Troubleshoot faulty API endpoint at '/help/me',2022-01-13T16:00:00.000Z
+I will be moving the API designed in 2020 to the archive storage,2022-01-14T16:00:00.000Z
+Design the different API endpoints for our apps to allow others to use its service,2022-01-15T16:00:00.000Z
+Enable 50/50 traffic to old and new API to slowly migrate users,2022-01-16T16:00:00.000Z
+Publish the API endpoints using Apigee,2022-01-17T16:00:00.000Z
+Setup analysing of the APIs' at Apigee to track traffic spikes,2022-01-18T16:00:00.000Z
+I will work to rearchitect the API endpoints that the business users has access to,2022-01-18T16:00:00.000Z
+I will be working on the documentation for the API endpoints,2022-01-19T16:00:00.000Z
+I will be focusing to minimise the downtime to migrate users to the new API endpoints,2022-01-20T16:00:00.000Z
+I will have the APIs' to have a standardised specification using OpenAPI,2022-01-21T16:00:00.000Z
+Will be working to fix the broken button that sends the API request,2022-01-22T16:00:00.000Z
+I will be working on the logic to script spinning up the containers for unit testing,2022-01-22T16:00:00.000Z
+I will write the logic to enable users to make submission of responses through the 'users/responses' endpoint,2022-01-23T16:00:00.000Z
+I will be working on the serving logic so that users can make inference through the 'models/inference' endpoint,2022-01-24T16:00:00.000Z
+I will be working on the logic that enables push notification to be sent upon user subscription,2022-01-25T16:00:00.000Z
+I will be adding the backend logic to allocate points if user stays on our site for 5 mins,2022-01-26T16:00:00.000Z
+Work on the logic to have a smooth edge when the animated cat ear folds,2022-01-27T16:00:00.000Z
+Work on the logic to build a stop motion camera with Raspberry Pi,2022-01-28T16:00:00.000Z
+I will continue to code the logic to animate the blobs movement based on users voice command,2022-01-29T16:00:00.000Z
+I will work on the logic to make the clock tick when user press the left-arrow key button,2022-01-29T16:00:00.000Z
+Work on the serving logic for BERT model,2022-01-30T16:00:00.000Z
+Meet with stakeholders to go through the app's logic flow,2022-01-31T16:00:00.000Z
+Continue to do the logic for payment plans for users to access different tiers of API usage,2022-02-01T16:00:00.000Z
+Finalise the backend logic to pop a ballon when the users click on it,2022-02-02T16:00:00.000Z
+Schedule a time with standupbento to discuss the logic flow for the chief app,2022-02-02T16:00:00.000Z
+Debug the faulty logic that occurs during sign up for users,2022-02-03T16:00:00.000Z
+I will be working on the backend maintenance of the app and resume the service once done,2022-02-04T16:00:00.000Z
+I will be working to document the app features/functionalities and how it works,2022-02-04T16:00:00.000Z

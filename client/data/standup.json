@@ -1,0 +1,12 @@
+{
+    "standup": {
+        "name": "StandUpBento's Daily Standup",
+        "completionTime": "02/20/2022",
+        "questions": {
+            "question_1": {
+                "title": "What will you do today",
+                "response_type": "String"
+            }
+        }
+    }
+}
